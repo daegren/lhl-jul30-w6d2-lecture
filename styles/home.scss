@@ -1,3 +1,14 @@
 h1 {
   color: tomato;
 }
+
+.post-list {
+  .post {
+    list-style: none;
+    margin: 1em;
+    border: 1px solid black;
+    padding: 1em;
+    box-shadow: 1px 1px rbga(0, 0, 0, 0.25);
+    border-radius: 0.2em;
+  }
+}
